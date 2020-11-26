@@ -8,7 +8,7 @@ const fibonacciNums = (n) => {
 	}
 	if(n > 2) {
 		counter = 2;
-		while(!(counter > n)) {
+		while(!(counter >= n)) {
 			a.push(a[counter-1] + a[counter-2]);
 			counter++;
 		}
