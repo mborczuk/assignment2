@@ -9,10 +9,7 @@ const getFrequencies = (nums) => {
 		}
 		
 	}
-	for(var key in dict) {
-		let value = dict[key];
-		console.log(key + ": " + value);
-	}
+	console.log(dict);
 };
 
 module.exports = getFrequencies;
