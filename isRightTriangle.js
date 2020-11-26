@@ -2,6 +2,7 @@ const isRightTriangle = (a, b, c) => {
 	var hypotenuse = 0;
 	var leg0 = 0;
 	var leg1 = 0;
+	if(a <= 0 || b <= 0 || c <= 0) return false;
 	if(c > a && c > b) {
 		hypotenuse = c;
 		leg0 = a;
